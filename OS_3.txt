@@ -1,0 +1,12 @@
+Processess are the program under execution. It becomes process when it comes to actual memory or RAM.
+
+Multi-Threading
+A single application can have multiple threads of execution running within a single process, each with its own call stack and set of registers. Threads share the
+process’s resources, including memory and open files. This makes for efficient, but potentially problematic, communication between threads. Threads are sometimes called lightweight processes.
+
+Multi-Processing
+A multiprocessing system has more than one CPU. Multiprocessing systems are more complex than single-processor systems because the operating system must allocate
+work to be done among the various processors. Multiprocessing systems are also more expensive and require more sophisticated operating systems than single-processor systems.
+A single application can have multiple processes, but a single computer system can only run one instance of an application at any given time. This is because each
+process is a separate instance of the application. Each process has its own memory space and system resources, and is assigned its own process ID (PID). A process
+can have multiple threads of execution that share its resources.
