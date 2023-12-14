@@ -7,12 +7,12 @@ Goals of OS to be achived while making it:
 
 Types of OS:
 <Answer>
-1. Single process OS - One Process at a time i.e. none of the goals are met ed MS DOS.
+1. Single process OS - One Process at a time i.e. none of the goals are met eg- MS DOS.
 2. Batch OS- Processes are sorted by the oparator in batches and these batches are executed as a single unit sequentially again none of the goals are met
-3. Multi-Programming OS
-4. Multi-Tasking OS
-5. Multi-Processing OS
+3. Multi-Programming OS - 1 CPU, context switcing , better CPU utilization when process goes to wait state, multiple jobs context stored in memory to ustilise better
+4. Multi-Tasking OS - all same, but time sharing is there which makes it better.
+5. Multi-Processing OS - more than 1 cpu, all same, better throughput, increases reliability
 other
-6. Distributed OS
-7. Real Time OS
+6. Distributed OS - loosely connected autonomous computer nodes , multiple cpu and multiple memory
+7. Real Time OS - for error free and fast real time computation like in ATC
 </Answer>
