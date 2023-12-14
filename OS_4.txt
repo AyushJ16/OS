@@ -1,0 +1,55 @@
+Components of OS
+1. User space
+2. Kernel space
+
+Q: User space
+A: - where user programs run
+- user programs are not allowed to access memory in kernel space
+- has its own set of system calls for communication with the kernel
+- user programs can be interrupted by the kernel at any time
+- Known as CLI and GUI
+
+Q: Kernel space
+A: - where the kernel runs
+- has access to all memory
+- has its own set of system calls for communication with user space
+- heart of the OS and is the first part to load on startup
+- It consists of various components or FUNCTIONS
+* Process management (creating, killing processes)
+* Memory management (allocating memory to processes)
+* Device drivers (communicating with hardware)
+* File system (managing files)
+* Network stack (communicating over the network)
+* I/O management
+
+Q: Types of Kernel
+A: 1. Monolithic
+2. Microkernel
+3. Hybrid
+other
+4. Exokernel
+5. Nanokernel
+
+Q: Exokernel
+A: - Exokernel is a kernel that manages hardware resources and provides protection to the user-level server.
+- It is a minimal kernel that provides no abstractions on top of hardware resources.
+- It is the responsibility of the user-level server to manage resources and implement abstractions.
+
+Q: Nanokernel
+A: - Nanokernel is a minimal kernel that provides only the most basic functionality.
+- It is the responsibility of the user-level server to manage resources and implement abstractions.
+- A nanokernel does not provide services like process scheduling, memory allocation, file systems etc. These features need to be implemented separately by the
+user-level server.
+
+Q: User-level server
+A: - User-level server is a process that runs in user space and provides services to other processes.
+- It is the responsibility of the user-level server to manage resources and implement abstractions.
+- A user-level server does not have direct access to hardware resources. It uses system calls to communicate with the nanokernel.
+
+Q: what is meant by "implement abstractions"
+A: - Abstractions are a way of hiding the complexity of a system from the user.
+- For example, a file system is an abstraction that hides the complexity of the underlying storage device from the user.
+- The user does not need to know how the storage device works. The user only needs to know how to read and write files.
+- In the context of a user-level server, it means providing a simplified interface to complex underlying systems such as file systems, networks, etc.
+- In this context, it means providing an interface between the user level application and the underlying operating system. This allows users to interact with the operating system
+without having to know how it works.
