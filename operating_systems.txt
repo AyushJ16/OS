@@ -1,0 +1,1 @@
+For every app to run it requires resources from the device like CPU, GPU, memory and Disk.
