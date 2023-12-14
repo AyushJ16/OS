@@ -1,1 +1,29 @@
+WHY WE NEED OS?
+<Answer>
 For every app to run it requires resources from the device like CPU, GPU, memory and Disk.
+if there's no OS then any app we open will hack these four resources completely withoud any regulation how much actually of each resource it requires
+And Now if we want to run another app then eve with the required resources to run the app we won't be able to run the app without the OS.
+-So the OS is the one who regulates the resources and gives each app the required resources to run.
+simply OS determines what percentages of resources should be given to the app to run this is also known as Resource Managemet
+OS works as an Interface between apps and resources
+-So if OS is not there then every app developer should also have to write the logic of the memory and resource Managemet this will make apps BULKY or it violates DRY PRINCIPLE.
+DRY -DO NOT REPEAT YOURSELF
+so os contains the code of memory and resource management
+-OS also provides for the isolation and protection so that the memory of each app use is isolated from each other so that no other app can interfere or write in the memory of the app used
+OS stores and regulates the address and location of the memory being given to an app and effectively isolates each of them
+</Answer>
+
+WHAT IS AN OS?
+<Answer>
+Operating System is piece of software that manages all resources of the computer system, both hardware and software, and provides the enviroment in which user can execute his/her program in a convinient and efficient manner by hiding the underlying complexity of the hardware and acting as a resource manager.
+OS is made up of collection of system software
+</Answer>
+
+FUNCTIONS OF AN OS:
+<Answer>
+1. Access to the computer hardware
+2. Interface between user and computer hardware
+3. Resource Management (AKA Arbritration)
+4. Hides underlying complexity of the hardware (Abstraction)
+5. Facilitates execution of the program by providing isolation and protection.
+</Answer>
